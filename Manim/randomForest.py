@@ -7,7 +7,7 @@ class RandomForestScene(Scene):
         title.to_edge(UP)
         self.play(Write(title))
         self.wait(0.5)
-        
+        # s
         # Subtitle
         subtitle = Text("Ensemble of Decision Trees", font_size=24, color=GRAY)
         subtitle.next_to(title, DOWN)

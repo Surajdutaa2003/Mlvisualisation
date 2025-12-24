@@ -19,6 +19,7 @@ class SVMScene(Scene):
         )
         axes.shift(DOWN * 0.5)
         self.play(Create(axes))
+        # s
         
         # Generate two classes of data points
         np.random.seed(42)

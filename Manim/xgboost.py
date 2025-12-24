@@ -7,6 +7,7 @@ class XGBoostScene(Scene):
         title = Text("XGBoost", font_size=36, color=BLUE)
         title.to_edge(UP)
         self.play(Write(title))
+        # s
         
         # Subtitle
         subtitle = Text("Extreme Gradient Boosting", font_size=24, color=GRAY)

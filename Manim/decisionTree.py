@@ -13,6 +13,8 @@ class DecisionTreeScene(Scene):
         root.shift(UP * 2)
         self.play(FadeIn(root))
         self.wait(0.5)
+
+        
         
         # Edges
         left_edge = Line(root.get_bottom(), root.get_bottom() + DOWN * 1.5 + LEFT * 2)

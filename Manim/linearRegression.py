@@ -21,3 +21,4 @@ class LinearRegressionScene(Scene):
         # Regression line
         line = axes.plot(lambda x: 0.8*x, color=YELLOW)
         self.play(Create(line))
+        

@@ -3,7 +3,7 @@ import numpy as np
 
 class KNNScene(Scene):
     def construct(self):
-        # Title
+        # Title  
         title = Text("K-Nearest Neighbors (KNN)", font_size=36)
         title.to_edge(UP)
         self.play(Write(title))
